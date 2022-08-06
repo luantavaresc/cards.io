@@ -1,0 +1,156 @@
+header {
+  background-color: var(--cor-5);
+}
+
+.titulo {
+  margin-bottom: 50px;
+}
+
+.titulo h1 {
+  padding-top: 30px;
+  margin-bottom: 18px;
+}
+
+.titulo p {
+  margin-bottom: 59px;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  height: 450px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-top,
+.card-top-2,
+.card-top-3,
+.card-top-4,
+.card-top-5,
+.card-top-6 {
+  height: 210px;
+  margin-bottom: 12px;
+}
+
+.card-top {
+  background-color: var(--cor-6);
+}
+
+.card-top-2 {
+  background-color: var(--cor-7);
+}
+
+.card-top-3 {
+  background-color: var(--cor-8);
+}
+
+.card-top-4 {
+  background-color: var(--cor-9);
+}
+
+.card-top-5 {
+  background-color: var(--cor-10);
+}
+
+.card-top-6 {
+  background-color: var(--cor-11);
+}
+
+.card-bot {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.card:last-child {
+  margin-bottom: 75px;
+}
+
+.contato {
+  background-color: var(--cor-5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+
+.contato h3 {
+  margin-top: 80px;
+  margin-bottom: 36px;
+}
+
+.txt-search {
+  width: 373.21px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.caixa-maior {
+  padding-bottom: 150px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 100px;
+  }
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .titulo-texto {
+    flex-wrap: wrap;
+  }
+
+  img {
+    height: 359.7517395019531px;
+  }
+
+  .imagem {
+    padding-left: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+
+  .botao-1 {
+    margin-bottom: 80px;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 111px;
+  }
+  .card-bot {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 30px 30px 30px;
+  }
+}

@@ -1,0 +1,31 @@
+.font-1-s {
+  font: 400 1rem/1.8 'Merriweather', serif;
+}
+.font-1-m {
+  font: 500 1.125rem/2.225 'Merriweather', serif;
+}
+
+.font-1-l {
+  font: 600 1.5rem/2.95 'Merriweather', serif;
+}
+
+.font-1-xl {
+  font: 700 2.5rem/1.5 'Merriweather', serif;
+}
+
+
+.font-2-s {
+  font: 400 1rem/1.8 'Lato', sans-serif;
+}
+.font-2-m {
+  font: 500 1.125rem/2.225 'Lato', sans-serif;
+}
+
+.font-2-l {
+  font: 600 1.5rem/2.95 'Lato', sans-serif;
+}
+
+.font-2-xl {
+  font: 700 1.75rem/2.125 'Lato', sans-serif;
+}
+

@@ -1,0 +1,76 @@
+:root {
+  --cor-0: #f9f9f9;
+  --cor-1: #ffffff;
+  --cor-2: #555555;
+  --cor-3: #2a2a2a;
+  --cor-4: #6c63ff;
+  --cor-5: #d7d4ff;
+
+  --cor-6: #ff6363;
+  --cor-7: #63ecff;
+  --cor-8: #f363ff;
+  --cor-9: #63ff73;
+  --cor-10: #ffdd63;
+  --cor-11: #6663ff;
+}
+
+.cor-0 {
+  color: var(--cor-0);
+}
+.cor-1 {
+  color: var(--cor-1);
+}
+.cor-2 {
+  color: var(--cor-2);
+}
+.cor-3 {
+  color: var(--cor-3);
+}
+.cor-4 {
+  color: var(--cor-4);
+}
+.cor-5 {
+  color: var(--cor-5);
+}
+
+.cor-6 {
+  color: var(--cor-6);
+}
+.cor-7 {
+  color: var(--cor-7);
+}
+.cor-8 {
+  color: var(--cor-8);
+}
+.cor-9 {
+  color: var(--cor-9);
+}
+.cor-10 {
+  color: var(--cor-10);
+}
+.cor-11 {
+  color: var(--cor-11);
+}
+
+.botao-1 {
+  height: 50px;
+  width: 155px;
+  left: 20px;
+  top: 296px;
+  border-radius: 5px;
+
+  background: #6c63ff;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  border-radius: 5px;
+}
+
+.botao-2 {
+  width: 374px;
+  height: 50px;
+  left: 20px;
+  top: 4232px;
+
+  background: #6c63ff;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  border-radius: 5px;
+}
